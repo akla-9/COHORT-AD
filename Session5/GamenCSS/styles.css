@@ -1,0 +1,51 @@
+body {
+    
+    text-align: center;
+    font-family:fantasy;
+    color:#e0a51a;
+}
+#index-page {
+    background-image: url(/Session5/GamenCSS/Images/multicolored\ wood.png);
+}
+#page-1 {
+    background-image: url(/Session5/GamenCSS/Images/bubblespng.png);
+}
+#page-2 {
+    background-color: #f73e00;
+}
+#door-1 {
+    background-color: #6b190f;
+}
+#door-2 {
+    background-color: #f73e00;
+}
+#go-home {
+    background-color: #f73e00;
+}
+form {
+    background-color: black;
+    box-sizing: border-box;
+    width:500px;  
+    margin-left:"500px";
+    position: absolute;
+    right:0;
+    left: 0;
+    top:200;
+    bottom:200;
+    margin:auto    
+   
+}
+h2 {
+    color: #f19d14;
+}
+.text-black {
+    color:black
+}
+table {
+    position: absolute;
+    right:0;
+    left: 0;
+    top:200;
+    bottom:200;
+    margin:auto  
+}
