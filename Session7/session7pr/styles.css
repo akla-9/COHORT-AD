@@ -1,0 +1,42 @@
+.flexbox1 {
+    width:200px;
+    height:200px;
+    background-color: darkorange;
+    align-self:flex-start;
+}
+.flexbox2 {
+    width:300px;
+    height:300px;
+    background-color:blue;
+    align-self:flex-end;
+    justify-self:flex-end;
+}
+
+.flexbox3 {
+    width:250px;
+    height:250px;
+    background-color: greenyellow;
+    align-self:center;      
+    
+}
+.flexbox4 {
+    width:150px;
+    height:150px;
+    background-color: yellow;
+    align-self:flex-end;
+    justify-self:flex-end;
+}
+.flexbox5 {
+    width:100px;
+    height:100px;
+    background-color: red;
+    justify-self:flex-end;
+}
+.flexbox-container {    
+    background-color: darkgreen;
+    display:flex;
+    width:100vw;
+    height:680px;
+    flex-direction:row;
+    /* justify-content:space-between; */
+}
