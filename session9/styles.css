@@ -32,27 +32,6 @@ nav {
     clear:both;
     float:left;
 }
-/* .grid-container {
-    display:grid;
-    grid-template-columns: 100px 300px;
-    grid-template-rows: repeat(4 200px);
-    background-color:darkgray;
-    height:829px;
-    column-gap: 10px;
-    row-gap:  10px;
-}
-.grid-items {
-    color: blueviolet;
-    background-color:white;
-
-.grid2 {
-  grid-column-start:1;
-  grid-column-end:3;  
-}
-.grid3 {
-    grid-row-start:2;
-    grid-row-end:3;
-} */
 
 /* styling of left side of the screen */
 table {
