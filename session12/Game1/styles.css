@@ -1,0 +1,143 @@
+/* * {
+    margin:0;
+    padding:0;
+} */
+
+body {
+    background-color:cornsilk;
+    font-family: 'Shalimar', cursive;
+}
+
+h1 {
+    text-align:center;
+}
+
+.game {
+float:left;
+width:400px;
+height:500px;
+
+margin-top:30px;
+font-size: 2em;
+
+}
+.christmas-tree {
+    width:500px;
+    height:800px;
+    float:right;
+    /* background-color: yellow; */
+}
+.colour-my-tree{
+    background-color: lightslategray;
+    border: none;
+    color:white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    width:500px;
+    height:800px;
+    /* background-color:blue; */
+}
+
+.tree-button {
+    background-color:lightslategray;
+    border-radius:60px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.button-8 {
+    width: 400px;;
+    height:80px;
+    padding-right: 10px;
+   
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+   
+
+}
+
+.button-7 {
+    width: 350px;;
+    height:80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+    justify-self:center;
+    align-self:center;
+}
+
+.button-6 {
+    width: 300px;;
+    height:80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+    justify-self:center;
+    align-self:center;
+}
+
+.button-5 {
+    width: 250px;;
+    height:80px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+    
+
+}
+.button-4 {
+    width: 200px;;
+    height:80px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+}
+.button-3 {
+    width: 150px;;
+    height:80px;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+}
+.button-2 {
+    width: 100px;
+    height:80px;
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+    position:relative;
+  
+}
+.button-1 {
+    width: 80px;;
+    height:80px;
+    margin-right: 10px;
+    border-radius:50px;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
