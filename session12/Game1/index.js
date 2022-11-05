@@ -56,14 +56,16 @@ function colourMyTree() {
          }
          break;
       case 'red':
-         if(document.getElementById('button-4').style.backgroundColor !='rgb(250, 215, 23)') {
+         if(document.getElementById('button-3').style.backgroundColor !='rgb(250, 137, 1)') {
             alert("you must start from the bottom"); 
          }
          else{
             document.getElementById('button-2').style.backgroundColor ='#F43545';
-            document.getElementById('question').innerHTML="Well done! Onto the next tier";
+            document.getElementById('question').innerHTML="Well done! Your tree looks awesome";
+            document.getElementById('button-1').style.backgroundColor ='gold';
          }
          break;
+       
       case '':
          document.getElementById('question').innerHTML="PLEASE ENTER A COLOUR IN THE BOX";
          break;
@@ -71,51 +73,12 @@ function colourMyTree() {
          document.getElementById('question').innerHTML="Sorry, wrong one, please try again";
       
    }
-   
-
+ 
 }
 
 
-// const colourOrder = ['violet','indigo','blue','green','yellow','orange','red'];
 
 
-// //change star colour randomly
-// function starColour() {
-// button-1.background = getRandomColor();
-// setTimeout(starColour,1000);
-// }
 
-// function getRandomColor() {
-
-//    const maxValue=100; 
-//    let red = getRandomNumber(maxValue);
-//    let orange = getRandomNumber(maxValue);
-//    let yellow = getRandomNumber(maxValue);
-//    let green = getRandomNumber(maxValue);
-//    let blue = getRandomNumber(maxValue);
-//    let indigo = getRandomNumber(maxValue);
-//    let violet = getRandomNumber(maxValue);
-//    return 'rgb('+red+','+orange+','+yellow+','+green+','+blue+','+indigo+','+violet+')';
-
-// }
-
-// function getRandomNumber(maxValue) {
-//    let randomNumber = Math.random();
-//    randomNumber = randomNumber*maxValue;
-//    randomNumber = Math.floor(randomNumber);
-//    return randomNumber;
-// }
-// if (button-8.background=='violet') {
-
-//    starColour();
-// }
-
-
-// let buttonColour = document.getElementById('button-8').style.backgroundColor;
-//  if (buttonColour =='violet') {
-//    console.log('yes');
-//    document.getElementById('button-1').style.backgroundColor =='red';
-
-//  }
 
 
