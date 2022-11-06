@@ -11,30 +11,31 @@
     <main>
         <div class="calculator" id="calculator">
             <div class="input">
-                <input type="text" class="result"><br>
+                <input type="text" class ="result" id="result">
             </div>
 
-            <div class ="buttons" id="buttons">
+            <div class ="buttons" id ="buttons">
                 
-                <button class="cal-button orange-button" >*</button>
-                <button class="cal-button orange-button" >/</button>
-                <button class="cal-button orange-button" >-</button>
-                <button class="cal-button orange-button" >+</button><br>
+                <button type="button" class="cbutton orange-button" data-num ="*" >*</button>
+                <button type="button" class="cbutton orange-button" data-num ="/">/</button>
+                <button type="button" class="cbutton orange-button" data-num ="-">-</button>
+                <button type="button" class="cbutton orange-button" data-num ="+">+</button><br>
 
-                <button class="cal-button">.</button>
-                <button class="cal-button numbers" >9</button>
-                <button class="cal-button numbers" >8</button>
-                <button class="cal-button numbers" >7</button><br>
+                <button type="button" class="cbutton" data-num =".">.</button>
+                <button type="button" class="cbutton numbers" data-num ="9" >9</button>
+                <button type="button" class="cbutton numbers" data-num ="8">8</button>
+                <button type="button" class="cbutton numbers" data-num ="7">7</button><br>
 
-                <button class="cal-button numbers" >6</button>
-                <button class="cal-button numbers" >5</button>
-                <button class="cal-button numbers" >4</button>
-                <button class="cal-button numbers" >3</button><br>
-                <button class="cal-button">2</button>
-                <button class="cal-button">1</button>
-                <button class="cal-button">0</button>
-                <button class="cal-equal">=</button><br>
-                <button class="cal-clear">C</button>
+                <button type="button" class="cbutton numbers" data-num ="6">6</button>
+                <button type="button" class="cbutton numbers" data-num ="5">5</button>
+                <button type="button" class="cbutton numbers" data-num ="4">4</button>
+                <button type="button" class="cbutton numbers" data-num ="3">3</button><br>
+
+                <button type="button" class="cbutton" data-num ="2">2</button>
+                <button type="button" class="cbutton" data-num ="1">1</button>
+                <button type="button" class="cbutton" data-num ="0">0</button>
+                <button type="button" class="cbutton cal-equal" id ="cal-equal">=</button><br>
+                <button type="button" class="cbutton cal-clear">C</button>
             </div>
         </div>
 
