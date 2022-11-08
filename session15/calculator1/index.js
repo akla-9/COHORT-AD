@@ -1,5 +1,4 @@
 
-
 // let screenDisplay = document.getElementById('result').value;
 
 let myButtons = Array.from (document.getElementsByClassName('cbutton'));
