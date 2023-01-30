@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            WELCOME TO MY GAME
-        </h1>
-    </header>
-    <nav>
-        <p>Please enter your details to begin</p>
-    </nav>
-   <form action="page2.html">
-    <label for="name">Name:</label><br/>
-    <input name="name" type="text" required ><br/>
-    <label for="password" required>Password:</label><br/>
-    <input name="password" type="password"/><br/>   
-    <input type="submit" value="Submit"/>
-   </form> 
+    <div class="page1-container">
+        <div class="scd-container">
+            <div class="login">
+                <h2>WELCOME TO MY GAME</h2>
+                <p>Please enter your details to begin</p>
+                <label for="name">Your Name</label><br/>
+                <input name="name" type="text" class="field"required ><br/>
+                <label for="password" required>Your Password</label><br/>
+                <input name="password" type="password" class="field"/><br/>   
+                <button type="submit" class="btn">Submit</button> 
+            </div>
+            <div class="image-container"></div>
+        </div>    
+    </div>
+
+   
 </body>
 </html>
