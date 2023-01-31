@@ -176,24 +176,43 @@ body{
     background-color:var(--bg-color)
 }
 
-.field {
+.input-control{
+    padding-bottom: 0.5rem;
+}
+.input-control .field {
     width:100%;
-    padding:0.5rem 1rem;
+    padding:0.5rem;
     outline:none;
     border:2px solid rgba(0,0,0,0);
     background-color: rgba(230,230,230,0.6);
     font-size:1.1rem;
-    margin-bottom: 0.8rem;
+    /* margin-bottom: 0.8rem; */
     transition: 0.3s ease
 }
 
-.field:hover {
+.input-control .field:hover {
     background-color: rgba(0,0,0,0.1);
 }
 
-.field:focus {
+.input-control .field:focus {
     background-color: #fff;
     border:2px solid var(--bg-color);
+}
+
+
+.input-control.valid .field {
+    border-color: green ;
+}
+
+.input-control.invalid .field {
+    border-color: #ff3860;
+}
+
+.input-control .invalid {
+    color:#ff3860;
+    font-size:9px;
+    height:13px;
+
 }
 
 .btn {
@@ -224,3 +243,4 @@ label {
         height:200px;
     }
 }
+

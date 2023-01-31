@@ -12,19 +12,27 @@
 <body>
     <div class="page1-container">
         <div class="scd-container">
-            <div class="login">
+            <form class="login">
                 <h2>WELCOME TO MY GAME</h2>
                 <p>Please enter your details to begin</p>
-                <label for="name">Your Name</label><br/>
-                <input name="name" type="text" class="field"required ><br/>
-                <label for="password" required>Your Password</label><br/>
-                <input name="password" type="password" class="field"/><br/>   
+                <div class="input-control">
+                    <label for="name">Your Name</label><br/>
+                    <input name="name" type="text" id="username" class="field" ><br/>
+                    <div class="invalid"></div>
+                </div> 
+                <div class="input-control">
+                    <label for="password" required>Your Password</label><br/>
+                    <input name="password" type="password" id="password" class="field" /><br/> 
+                    <div class="invalid"></div>
+                </div>      
                 <button type="submit" class="btn">Submit</button> 
-            </div>
+            </form>
             <div class="image-container"></div>
         </div>    
     </div>
 
-   
+
+
+   <script src="./script.js"></script>
 </body>
 </html>
