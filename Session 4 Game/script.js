@@ -46,6 +46,11 @@ const validateInputs = () =>{
         setValid(password);
     }
 
-    
+    if(usernameValue !="" && passwordValue!="") {
+        submit.addEventListener ('click', ()=>{
+            window.location.href="page2.html"
+        })
+    }
 }
+
 
